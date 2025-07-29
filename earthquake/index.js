@@ -68,7 +68,7 @@ Plotly.newPlot("myMap", data, layout, {
 });
 
 const highAudio = new Audio("high.mp3");
-const mediumAudio = new Audio("medium.mp3"));
+const mediumAudio = new Audio("medium.mp3");
 const lowAudio = new Audio("low.mp3");
 
 myPlot.on("plotly_hover", function (data) {
